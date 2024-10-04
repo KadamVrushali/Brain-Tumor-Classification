@@ -1,4 +1,4 @@
-# Brain-Tumor-Classification
+# 🧠 Brain-Tumor-Classification
 This repository hosts a deep learning project focused on brain tumor classification using Convolutional Neural Networks (CNN) and Histogram of Oriented Gradients (HOG) features. The models are trained on medical imaging datasets to accurately classify glioma, meningioma, no-tumor, and pituitary tumors.
 
 ## 🛠 Installation
@@ -9,7 +9,7 @@ numpy
 matplotlib
 You can install the required packages using pip
 
-## 🧠 Overview of Contents
+## 📑  Overview of Contents
 Data Visualization: Analyzing class imbalance and tracking model performance through graphs like loss vs. epoch and accuracy vs. epoch.
 
 Model Development: Crafting effective architectures for CNN and HOG feature extraction.
@@ -23,6 +23,7 @@ After training the models, we achieved the following performance metrics:
 
 #### CNN Model
 Accuracy: 87.95%
+
 Loss: 0.2956
 
 ```plaintext
@@ -36,6 +37,7 @@ Loss: 0.2956
 
 #### HOG Model
 Accuracy: 84.74%
+
 Loss: 0.3899
 
 ```plaintext
