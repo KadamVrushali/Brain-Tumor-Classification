@@ -4,13 +4,9 @@ This repository hosts a deep learning project focused on brain tumor classificat
 ## 🛠 Installation
 To run this project, ensure you have Python and the following libraries installed:
 
-tensorflow
+tensorflow - keras
 numpy
 matplotlib
-scikit-learn
-selenium
-Pillow
-imbalanced-learn
 You can install the required packages using pip
 
 ## 🧠 Overview of Contents
@@ -23,24 +19,33 @@ Training & Assessment: Fitting the models and evaluating performance using metri
 ## 📈 Model Performance
 After training the models, we achieved the following performance metrics:
 
-CNN Model
 
+
+#### CNN Model
 Accuracy: 87.95%
 Loss: 0.2956
-Precision	Recall	F1-Score	Support
-glioma	0.91	0.77	0.84	300
-meningioma	0.74	0.76	0.75	306
-no-tumor	0.91	0.99	0.95	405
-pituitary	0.95	0.97	0.96	300
-HOG Model
 
+```plaintext
+              precision    recall  f1-score   support
+      glioma       0.91      0.77      0.84       300
+  meningioma       0.74      0.76      0.75       306
+     notumor       0.91      0.99      0.95       405
+   pituitary       0.95      0.97      0.96       300
+
+```
+
+#### HOG Model
 Accuracy: 84.74%
 Loss: 0.3899
-Precision	Recall	F1-Score	Support
-glioma	0.87	0.83	0.85	300
-meningioma	0.78	0.54	0.64	306
-no-tumor	0.84	1.00	0.91	405
-pituitary	0.89	0.97	0.93	300
+
+```plaintext
+              precision    recall  f1-score   support
+      glioma       0.87      0.83      0.85       300
+  meningioma       0.78      0.54      0.64       306
+     notumor       0.84      1.00      0.91       405
+   pituitary       0.89      0.97      0.93       300
+
+```
 
 ## 📊 About HOG
 Histogram of Oriented Gradients (HOG) is a feature descriptor that captures the gradient orientation and magnitude in localized regions of an image, making it effective for object detection tasks. HOG features are robust against changes in illumination and can be combined with traditional classifiers.
