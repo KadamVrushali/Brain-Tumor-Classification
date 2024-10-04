@@ -3,7 +3,9 @@ This repository contains a deep learning project for brain tumor classification 
 
 ### Overview of Contents
 🧠  Data Visualization: Analyzing class imbalance and tracking model performance through graphs like loss vs. epoch and accuracy vs. epoch.
+
 🧠  Model Development: Crafting effective architectures for CNN and HOG feature extraction.
+
 🧠 Training & Assessment: Fitting the models and evaluating performance using metrics such as accuracy and F1-score.
 
 ### Results
