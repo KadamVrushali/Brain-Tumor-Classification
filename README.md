@@ -15,20 +15,7 @@ Fitting the models and evaluating performance using metrics such as accuracy and
 #### CNN Model
 Accuracy: 87.95%
 Loss: 0.2956
-Classification Report:
-              precision    recall  f1-score   support
-      glioma       0.91      0.77      0.84       300
-  meningioma       0.74      0.76      0.75       306
-     notumor       0.91      0.99      0.95       405
-   pituitary       0.95      0.97      0.96       300
-
 
 #### HOG Model
 Accuracy: 84.74%
 Loss: 0.3899
-Classification Report:
-              precision    recall  f1-score   support
-      glioma       0.87      0.83      0.85       300
-  meningioma       0.78      0.54      0.64       306
-     notumor       0.84      1.00      0.91       405
-   pituitary       0.89      0.97      0.93       300
