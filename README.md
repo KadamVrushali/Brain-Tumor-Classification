@@ -11,8 +11,8 @@ Crafting effective architectures for CNN and HOG feature extraction.
 ### 🧠 Training & Assessment: 
 Fitting the models and evaluating performance using metrics such as accuracy and F1-score.
 
-### Results
-##### CNN Model
+## Results
+#### CNN Model
 Accuracy: 87.95%
 Loss: 0.2956
 Classification Report:
@@ -22,7 +22,7 @@ Classification Report:
      notumor       0.91      0.99      0.95       405
    pituitary       0.95      0.97      0.96       300
 
-##### HOG Model
+#### HOG Model
 Accuracy: 84.74%
 Loss: 0.3899
 Classification Report:
