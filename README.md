@@ -22,6 +22,7 @@ Classification Report:
      notumor       0.91      0.99      0.95       405
    pituitary       0.95      0.97      0.96       300
 
+
 #### HOG Model
 Accuracy: 84.74%
 Loss: 0.3899
