@@ -2,11 +2,14 @@
 This repository contains a deep learning project for brain tumor classification using Convolutional Neural Networks (CNN) and Histogram of Oriented Gradients (HOG) features. The models are trained on medical imaging datasets to accurately classify glioma, meningioma, no-tumor, and pituitary tumors.
 
 ### Overview of Contents
-🧠  Data Visualization: Analyzing class imbalance and tracking model performance through graphs like loss vs. epoch and accuracy vs. epoch.
+🧠  ### Data Visualization: 
+Analyzing class imbalance and tracking model performance through graphs like loss vs. epoch and accuracy vs. epoch.
 
-🧠  Model Development: Crafting effective architectures for CNN and HOG feature extraction.
+🧠  ### Model Development: 
+Crafting effective architectures for CNN and HOG feature extraction.
 
-🧠 Training & Assessment: Fitting the models and evaluating performance using metrics such as accuracy and F1-score.
+🧠 ### Training & Assessment: 
+Fitting the models and evaluating performance using metrics such as accuracy and F1-score.
 
 ### Results
 ##### CNN Model
